@@ -1,8 +1,6 @@
 ﻿// Напишите программу, которая по заданному номеру четверти,
 // показывает диапазон возможныъ координато точек в этой четверти (x и y)
 
-Console.WriteLine("Введите номер четверти (1-4)");
-int nq = int.Parse(Console.ReadLine()!);
 
 void PrintCoord (int nq)
 {
@@ -27,5 +25,8 @@ void PrintCoord (int nq)
         Console.WriteLine("Возможные коррдинаты в данной четверти, по Y(-бесконечности;0)");
     }
 }
+
+Console.WriteLine("Введите номер четверти (1-4)");
+int nq = int.Parse(Console.ReadLine()!);
 
 PrintCoord(nq);
