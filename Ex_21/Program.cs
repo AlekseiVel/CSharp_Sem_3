@@ -25,4 +25,4 @@ double y2 = double.Parse(Console.ReadLine()!);
 
 double range = GetRange(x1, y1, x2, y2);
     
-Console.WriteLine($"Расстояние между точками {range}");
+Console.WriteLine($"Расстояние между точками {range:f2}");
